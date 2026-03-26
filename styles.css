@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "CursedTimerUlil-Aznm";
+    src: url("assets/CursedTimerUlil-Aznm.ttf") format("truetype");
+}
+body{
+    background-color: #1B244A;
+    color: whitesmoke;
+    font-family: Verdana, Tahoma, sans-serif;
+    
+}
+
+.score-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    border: 2px solid green;
+}
+
+.display-score {
+    font-family: "CursedTimerUlil-Aznm" ,sans-serif;
+    font-size: 3rem;
+    padding: 1rem 1rem;
+    background-color: #121212;
+    color: #F94F6D;
+    margin: 1rem 0;
+    border-radius: 3px;;
+
+}
+
+.btn-container{
+    display: flex;
+    justify-content:space-between;
+}
+
+.btn{
+    font-family: "CursedTimerUlil-Aznm" ,sans-serif;
+    background-color: #1B244A;
+    border-color: #9AABD8;
+    color: #9AABD8;
+    padding: 0.4rem;
+    border-radius: 3px; 
+}
+
+#home{
+    text-align: center;
+    gap: 2rem;
+    min-width: 7rem;
+
+}
+
+#guess{
+    text-align: center;
+    gap: 2rem;
+    min-width: 7rem;
+}
